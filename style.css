@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: red;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #d6ba00;
+  background-color: #ff00000;
   overflow: hidden;
 }
 
@@ -99,7 +99,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #fad900;
+  color: #26841f
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
