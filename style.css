@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: red;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #26841f
+  color: #8f8f8f
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,7 +110,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: #26841f;
+  background-color: #737373;
 }
 
 
@@ -124,6 +124,14 @@ nav li a.active {
   float: left;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-tekst {
