@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background: linear-gradient(to right bottom, #266f0cff, white) ;    /* achtergrondkleur lichtgrijs */
+  background: linear-gradient(to right bottom, #271db4ff, white) ;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -57,12 +57,13 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: red;
+  color: #1700c70;
 } 
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify; 
+  color: black;/* tekst links en rechts uitvullen */
 }
 
 img {
@@ -83,16 +84,13 @@ a:hover {                         /* <a> als je er met de muis op staat */
   font-size: 0.7em;
 }
 
-.box {
-
-}
 
 /************************* NAVIGATIEBALK *************************/
 
 /* navigatiebalk voor alle pagina's */
 
 nav ul li {
-  border: 2px solid white;
+  border: 0,5px solid ;
 }
 nav ul {
   border: 2px solid white;
@@ -100,13 +98,13 @@ nav ul {
   margin:auto;
 }
 nav  {
-  border: 2px solid white;
+  border: 2px transparent;
 }
 nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #ff00000;
+  background-color: #1700c70;
   overflow: hidden;
 }
 
@@ -123,7 +121,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #ff0000;
+  background-color: #1700c70;
 }
 
 nav li a.active {
@@ -140,13 +138,13 @@ nav li a.active {
 .item-plaatje {
   float: left;
   width: 250px;
-  border: ridge red 4px; /* zorgt dat plaatje niet tegen tekst komt */
+  border: ridge darkblue 4px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-foto {
   float: right;
   width: 250px;
-  border: ridge red 4px;
+  border: ridge darkblue 4px;
   margin: 15px;
  /* zorgt dat plaatje niet tegen tekst komt */
 }
@@ -154,7 +152,7 @@ nav li a.active {
 .item-omhaal {
   float: right;
   width: 250px;
-  border: ridge red 4px;
+  border: ridge darkblue 4px;
   margin: 15px;
  /* zorgt dat plaatje niet tegen tekst komt */
 }
@@ -166,7 +164,11 @@ nav li a.active {
   padding-right: 15px;
 }
 
-
+.box {
+  border: ridge darkblue 4px;
+  margin: 15px;
+  content: .item-tekst;
+}
 
 /************************* SUBPAGINA *************************/
 
