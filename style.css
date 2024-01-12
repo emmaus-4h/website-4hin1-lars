@@ -23,9 +23,11 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
+  background: linear-gradient(to right bottom, #266f0cff, white) ;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
+
+
 
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
@@ -81,10 +83,25 @@ a:hover {                         /* <a> als je er met de muis op staat */
   font-size: 0.7em;
 }
 
+.box {
+
+}
+
 /************************* NAVIGATIEBALK *************************/
 
 /* navigatiebalk voor alle pagina's */
 
+nav ul li {
+  border: 2px solid white;
+}
+nav ul {
+  border: 2px solid white;
+  width:fit-content;
+  margin:auto;
+}
+nav  {
+  border: 2px solid white;
+}
 nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
@@ -99,7 +116,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #8f8f8f
+  color: #ffffff
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,7 +127,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: #737373;
+  background-color: #ffffff;
 }
 
 
@@ -123,20 +140,30 @@ nav li a.active {
 .item-plaatje {
   float: left;
   width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  border: ridge red 4px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-foto {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  float: right;
+  width: 250px;
+  border: ridge red 4px;
+  margin: 15px;
+ /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-omhaal {
+  float: right;
+  width: 250px;
+  border: ridge red 4px;
+  margin: 15px;
  /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-tekst {
   float: right;
   width: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
