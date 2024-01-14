@@ -49,6 +49,7 @@ div {                             /* geldt voor div */
   border-left: dotted;
   border-right: dotted;
   background-color: #939dec;
+  height: 825px;
   /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -93,6 +94,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 .smalltext {
   text-align: center;
   font-size: 0.7em;
+  margin-top: 15px;
 }
 
 
@@ -168,10 +170,20 @@ nav li a.active {
   float: right;
   width: 250px;
   border: outset darkblue 4px;
-  margin: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
  /* zorgt dat plaatje niet tegen tekst komt */
 }
 
+.item-kinderjaren {
+  float: right;
+  width: 250px;
+  border: outset darkblue 4px;
+  margin-left: 15px;
+  margin-right: 30px;
+  margin-bottom: -30px;
+ /* zorgt dat plaatje niet tegen tekst komt */
+}
 .item-tekst {
   float: right;
   width: 450px;
